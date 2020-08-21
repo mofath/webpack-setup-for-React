@@ -1,5 +1,5 @@
 # webpack-setup-for-React
-webpack setup for react app, it handle jsx files, css, images, with build and dev config files
+webpack setup for react app, that handles jsx files, css, images, with build and dev config files
 
 apply babel-loader for any js file
 
