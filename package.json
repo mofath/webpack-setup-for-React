@@ -1,0 +1,21 @@
+{
+  "name": "webpack-setup__react",
+  "version": "1.0.0",
+  "description": "webpack setup for react app, that handles jsx files and css imports, images, lazy-import, with development and production config files and scripts.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mofath/webpack-setup__react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://github.com/mofath/webpack-setup__react#readme",
+  "devDependencies": {
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
