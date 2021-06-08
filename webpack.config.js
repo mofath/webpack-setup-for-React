@@ -1,6 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-
+const cleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
     entry: {
@@ -11,11 +11,12 @@ module.exports = {
         filename: '[name].bundle.js'
     },
     plugins: [
+        new cleanWebpackPlugin(),
         new HtmlWebpackPlugin({
             title: 'Webpack Setup',
             filename: 'index.html',
             template: path.resolve(__dirname, './src/template.html')
-        })
+        }),
     ]
 
 }
